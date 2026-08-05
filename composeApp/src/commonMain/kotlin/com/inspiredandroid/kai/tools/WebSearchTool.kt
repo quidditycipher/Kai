@@ -33,7 +33,7 @@ object WebSearchTool : Tool {
 
     private val client = httpClient {
         install(HttpTimeout) {
-            requestTimeoutMillis = 15_000
+            requestTimeoutMillis = 120_000
         }
     }
 
