@@ -210,26 +210,28 @@ internal object ModelCatalog {
         // ==============================================================
         // DeepSeek
         // ==============================================================
-        "deepseek-v3.2" to CuratedModelInfo("DeepSeek V3.2", 128_000, "2025-09", "671B"),
-        "deepseek-v3-2" to CuratedModelInfo("DeepSeek V3.2", 128_000, "2025-09", "671B"),
-        "deepseek-v3.2-exp" to CuratedModelInfo("DeepSeek V3.2 Exp", 128_000, "2025-09", "671B"),
-        "deepseek-v3.1" to CuratedModelInfo("DeepSeek V3.1", 128_000, "2025-08", "671B"),
-        "deepseek-v3-1" to CuratedModelInfo("DeepSeek V3.1", 128_000, "2025-08", "671B"),
-        "deepseek-v2.5" to CuratedModelInfo("DeepSeek V2.5", 128_000, "2024-12", "236B"),
-        "deepseek-v2.5-1210" to CuratedModelInfo("DeepSeek V2.5", 128_000, "2024-12", "236B"),
-        "deepseek-v3" to CuratedModelInfo("DeepSeek V3", 128_000, "2024-12", "671B"),
-        "deepseek-chat" to CuratedModelInfo("DeepSeek Chat", 128_000, "2024-12", "671B"),
-        "deepseek-r1" to CuratedModelInfo("DeepSeek R1", 128_000, "2025-01", "671B"),
-        "deepseek-reasoner" to CuratedModelInfo("DeepSeek R1", 128_000, "2025-01", "671B"),
-        "deepseek-r1-0528" to CuratedModelInfo("DeepSeek R1", 128_000, "2025-05", "671B"),
-        "deepseek-r1-distill-llama-70b" to CuratedModelInfo("DeepSeek R1 Distill Llama", 128_000, "2025-01", "70B"),
-        "deepseek-r1-distill-llama-8b" to CuratedModelInfo("DeepSeek R1 Distill Llama", 128_000, "2025-01", "8B"),
-        "deepseek-r1-distill-qwen-32b" to CuratedModelInfo("DeepSeek R1 Distill Qwen", 128_000, "2025-01", "32B"),
-        "deepseek-r1-distill-qwen-14b" to CuratedModelInfo("DeepSeek R1 Distill Qwen", 128_000, "2025-01", "14B"),
-        "deepseek-r1-distill-qwen-7b" to CuratedModelInfo("DeepSeek R1 Distill Qwen", 128_000, "2025-01", "7B"),
-        "deepseek-r1-distill-qwen-1.5b" to CuratedModelInfo("DeepSeek R1 Distill Qwen", 128_000, "2025-01", "1.5B"),
-        "deepseek-coder-v2" to CuratedModelInfo("DeepSeek Coder V2", 128_000, "2024-06", "236B"),
-        "deepseek-coder" to CuratedModelInfo("DeepSeek Coder", 128_000, "2024-06"),
+        "deepseek-v3.2" to CuratedModelInfo("DeepSeek V3.2", 1_000_000, "2025-09", "671B"),
+        "deepseek-v3-2" to CuratedModelInfo("DeepSeek V3.2", 1_000_000, "2025-09", "671B"),
+        "deepseek-v3.2-exp" to CuratedModelInfo("DeepSeek V3.2 Exp", 1_000_000, "2025-09", "671B"),
+        "deepseek-v3.1" to CuratedModelInfo("DeepSeek V3.1", 1_000_000, "2025-08", "671B"),
+        "deepseek-v3-1" to CuratedModelInfo("DeepSeek V3.1", 1_000_000, "2025-08", "671B"),
+        "deepseek-v2.5" to CuratedModelInfo("DeepSeek V2.5", 1_000_000, "2024-12", "236B"),
+        "deepseek-v2.5-1210" to CuratedModelInfo("DeepSeek V2.5", 1_000_000, "2024-12", "236B"),
+        "deepseek-v3" to CuratedModelInfo("DeepSeek V3", 1_000_000, "2024-12", "671B"),
+        "deepseek-chat" to CuratedModelInfo("DeepSeek Chat", 1_000_000, "2024-12", "671B"),
+        "deepseek-r1" to CuratedModelInfo("DeepSeek R1", 1_000_000, "2025-01", "671B"),
+        "deepseek-reasoner" to CuratedModelInfo("DeepSeek R1", 1_000_000, "2025-01", "671B"),
+        "deepseek-r1-0528" to CuratedModelInfo("DeepSeek R1", 1_000_000, "2025-05", "671B"),
+        "deepseek-r1-distill-llama-70b" to CuratedModelInfo("DeepSeek R1 Distill Llama", 1_000_000, "2025-01", "70B"),
+        "deepseek-r1-distill-llama-8b" to CuratedModelInfo("DeepSeek R1 Distill Llama", 1_000_000, "2025-01", "8B"),
+        "deepseek-r1-distill-qwen-32b" to CuratedModelInfo("DeepSeek R1 Distill Qwen", 1_000_000, "2025-01", "32B"),
+        "deepseek-r1-distill-qwen-14b" to CuratedModelInfo("DeepSeek R1 Distill Qwen", 1_000_000, "2025-01", "14B"),
+        "deepseek-r1-distill-qwen-7b" to CuratedModelInfo("DeepSeek R1 Distill Qwen", 1_000_000, "2025-01", "7B"),
+        "deepseek-r1-distill-qwen-1.5b" to CuratedModelInfo("DeepSeek R1 Distill Qwen", 1_000_000, "2025-01", "1.5B"),
+        "deepseek-coder-v2" to CuratedModelInfo("DeepSeek Coder V2", 1_000_000, "2024-06", "236B"),
+        "deepseek-coder" to CuratedModelInfo("DeepSeek Coder", 1_000_000, "2024-06"),
+        "deepseek-v4-pro-cheaper:thinking" to CuratedModelInfo("DeepSeek V4 Pro Cheaper", 1_000_000, "2026", "685B"),
+        "deepseek-v4-pro:thinking" to CuratedModelInfo("DeepSeek V4 Pro Thinking", 1_000_000, "2026", "685B"),
 
         // ==============================================================
         // Mistral
@@ -1904,7 +1906,7 @@ internal object ModelCatalog {
         return hit
     }
 
-    const val DEFAULT_CONTEXT_WINDOW_TOKENS = 100_000
+    const val DEFAULT_CONTEXT_WINDOW_TOKENS = 1_000_000
 
     /**
      * Context window in tokens from the catalog, or [DEFAULT_CONTEXT_WINDOW_TOKENS]
