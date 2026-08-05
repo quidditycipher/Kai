@@ -56,7 +56,7 @@ object FetchUrlTool : Tool {
 
     private val client = httpClient {
         install(HttpTimeout) {
-            requestTimeoutMillis = 15_000
+            requestTimeoutMillis = 120_000
             connectTimeoutMillis = 10_000
         }
     }
