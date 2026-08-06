@@ -99,7 +99,7 @@ private const val MAX_REPEATED_TOOL_CALLS = 3
 private const val MAX_API_RETRIES = 2
 private const val MAX_HEARTBEAT_MESSAGES = 50
 private const val ESTIMATED_CHARS_PER_TOKEN = 4
-private const val COMPACTION_THRESHOLD = 0.1 // Compact when history exceeds 70% of context window
+private const val COMPACTION_THRESHOLD = 1.0 // Compact when history exceeds 70% of context window
 private const val COMPACTION_KEEP_RECENT = 4 // Number of recent user exchanges to keep verbatim
 
 // Explicit allowlist of tools exposed to the on-device (LiteRT) model. We use a
